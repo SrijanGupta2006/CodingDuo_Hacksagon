@@ -1,11 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dashboard</title>
+    <link href="./dist/output.css" rel="stylesheet">
 </head>
-<body>
-    
+
+<body class="bg-slate-50">
+    <!-- NAVBAR (full width) -->
+    <nav class="bg-white flex flex-col md:flex-row md:justify-between items-center px-6 py-3 shadow-sm">
+        <div class="text-2xl font-semibold">
+            Unified Student Support Platform
+        </div>
+        <ul class="flex space-x-6 cursor-pointer text-slate-600">
+            <li>
+                <a href="#logout" class="hover:text-slate-900">Log Out</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- SEPARATOR (full width) -->
+    <div class="separator h-px bg-slate-300 w-full mb-10"></div>
+
+    <h1 class="flex justify-center text-6xl text-slate-800 font-semibold">Student Dashboard</h1>
+
+    <div class="mt-20 mx-auto px-6 w-full max-w-6xl
+            flex flex-col md:flex-row gap-8">
+
+
+        <!-- LEFT CARD -->
+        <a href="academics.html" class="block bg-indigo-50 p-10 flex-1 rounded-lg shadow-sm
+          border border-indigo-200
+          hover:shadow-md hover:border-indigo-400
+          transition cursor-pointer">
+
+            <h2 class="font-semibold text-2xl text-indigo-800 text-center mb-4">
+                Academics
+            </h2>
+
+            <p class="text-slate-700 leading-relaxed">
+                Access all your academic resources in one place. View course materials,
+                track attendance, check grades, and stay updated with announcements.
+            </p>
+        </a>
+
+
+        <!-- MIDDLE CARD -->
+        <a href="grievance.html"
+            class=" block cursor-pointer transition bg-amber-50 p-10 flex-1 rounded-lg shadow-sm border border-amber-200 hover:border-amber-200  hover:shadow-md">
+
+
+            <h2 class="text-amber-800 text-center font-semibold text-2xl mb-4">Grievance</h2>
+            <p class="text-slate-700 leading-relaxed"> Raise academic or administrative grievances easily and track
+                their
+                progress in real time. No repeated visits or uncertainty — stay informed
+                with transparent status updates until resolution.</p>
+
+        </a>
+
+        <!-- RIGHT CARD -->
+        <a href="mentalhealth.html"
+            class="block cursor-pointer transition bg-emerald-50 p-10 flex-1 rounded-lg shadow-sm border border-emerald-200 hover:border-emerald-200 hover:shadow-md">
+
+            <h2 class="text-emerald-800 text-center font-semibold text-2xl mb-4">Mental Health</h2>
+            <p class="text-slate-700 leading-relaxed"> Find confidential mental health resources and support services
+                designed
+                for students. Access guidance, counselling options, and well-being tools
+                in a safe, supportive, and stigma-free environment.</p>
+        </a>
+
+    </div>
+
+
 </body>
+
 </html>
