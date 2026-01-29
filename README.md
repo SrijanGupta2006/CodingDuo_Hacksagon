@@ -1,7 +1,8 @@
-<h1 align="center">🎓 Unified Student Support & Governance Platform</h1>
+<h1 align="center">🎓 Unified Student Support Portal</h1>
 
 <p align="center">
-  <i>A Changeathon Project | National Social Summit 2026, IIT Roorkee</i>
+  <i>A Hacksagon Project | Atal Bihari Vajpayee-Indian Institute of Information Technology and Management
+</i>
 </p>
 
 ---
